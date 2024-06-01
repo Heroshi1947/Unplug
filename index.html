@@ -19,7 +19,7 @@
       name="keywords"
       content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation"
     />
-    <meta name="author" content="Shivam Mishra" />
+    <meta name="author" content="Muhammad Morshed" />
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -396,28 +396,28 @@
           >
             <ul class="text-center">
               <li>
-                <a href="javascript:;" data-filter="all" class="active filter"
+                <a  data-filter1=".all" class="filter "
                   >All</a
                 >
               </li>
               <li>
-                <a href="javascript:;" data-filter=".branding" class="filter"
-                  >Carry-On</a
-                >
-              </li>
-              <li>
-                <a href="javascript:;" data-filter=".web" class="filter"
+                <a  data-filter1=".printed" class="filter"
                   >Printed</a
                 >
               </li>
               <li>
-                <a href="javascript:;" data-filter=".logo-design" class="filter"
-                  >Hard-Shell</a
+                <a  data-filter1=".solid" class="filter"
+                  >Solid</a
                 >
               </li>
               <li>
-                <a href="javascript:;" data-filter=".photography" class="filter"
-                  >All-in-One</a
+                <a data-filter1=".wide" class="filter"
+                  >Wide Trolley</a
+                >
+              </li>
+              <li>
+                <a  data-filter1=".pocket" class="filter"
+                  >Hard Pocket</a
                 >
               </li>
             </ul>
@@ -425,73 +425,73 @@
         </div>
       </div>
 
-      <div class="project-wrapper">
-        <figure class="mix work-item branding">
-          <img src="img/products/bag8.jpeg" alt="" />
+      <div class="">
+        <figure class="mix work-item solid all">
+          <img src="img/works/bag8.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item web">
-          <img src="img/products/bag9.jpeg" alt="" />
+        <figure class="mix work-item printed all">
+          <img src="img/works/bag9.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item web">
-          <img src="img/products/bag13.jpeg" alt="" />
+        <figure class="mix work-item printed">
+          <img src="img/works/bag13.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item web">
-          <img src="img/products/bag12.jpeg" alt="" />
+        <figure class="mix work-item printed">
+          <img src="img/works/bag12.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item branding">
-          <img src="img/products/bag2.jpeg" alt="" />
+        <figure class="mix work-item solid">
+          <img src="img/works/bag2.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item branding">
-          <img src="img/products/bag18.jpeg" alt="" />
+        <figure class="mix work-item printed">
+          <img src="img/works/bag18.jpeg" alt="" />
+        </figure>
+        <!-- image not working -->
+        <!-- <figure class="mix work-item photography">
+          <img src="img/works/bag3.jpeg" alt="" />
+        </figure> -->
+
+        <figure class="mix work-item solid">
+          <img src="img/works/bag4.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item photography">
-          <img src="img/products/bag3.jpeg" alt="" />
+        <figure class="mix work-item printed">
+          <img src="img/works/bag11.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item branding">
-          <img src="img/products/bag4.jpeg" alt="" />
+        <figure class="mix work-item solid">
+          <img src="img/works/bag6.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item web">
-          <img src="img/products/bag11.jpeg" alt="" />
+        <figure class="mix work-item wide all">
+          <img src="img/works/bag16.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item logo-design">
-          <img src="img/products/bag6.jpeg" alt="" />
+        <figure class="mix work-item wide">
+          <img src="img/works/bag15.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item logo-design">
-          <img src="img/products/bag16.jpeg" alt="" />
+        <figure class="mix work-item soid">
+          <img src="img/works/bag7.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item logo-design">
-          <img src="img/products/bag15.jpeg" alt="" />
+        <figure class="mix work-item pocket all">
+          <img src="img/works/bag17.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item logo-design">
-          <img src="img/products/bag7.jpeg" alt="" />
+        <figure class="mix work-item pocket">
+          <img src="img/works/bag19.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item photography">
-          <img src="img/products/bag17.jpeg" alt="" />
+        <figure class="mix work-item pocket">
+          <img src="img/works/bag20.jpeg" alt="" />
         </figure>
 
-        <figure class="mix work-item photography">
-          <img src="img/products/bag19.jpeg" alt="" />
-        </figure>
-
-        <figure class="mix work-item photography">
-          <img src="img/products/bag20.jpeg" alt="" />
-        </figure>
-
-        <figure class="mix work-item photography">
-          <img src="img/products/bag21.jpeg" alt="" />
+        <figure class="mix work-item pocket">
+          <img src="img/works/bag21.jpeg" alt="" />
         </figure>
       </div>
     </section>
@@ -960,7 +960,51 @@
 
     <script>
       // JavaScript to set the current year
-      document.getElementById("year").textContent = new Date().getFullYear();
+      document.getElementById("year").textContent = new Date().getFullYear(); 
+
+      // Get all filter links
+var filterLinks = document.querySelectorAll('.filter');
+
+// Add click event listener to each filter link
+filterLinks.forEach(function(link) {
+  link.addEventListener('click', function() {
+    // Get the filter value
+    var filterValue = this.getAttribute('data-filter1');
+
+    // Filter the elements based on the filter value
+    filterElements(filterValue);
+  });
+});
+
+function filterElements(filterValue) {
+  // Get all work items
+  console.log("filterelements", filterValue)
+  var workItems = document.querySelectorAll('.work-item');
+
+  // Loop through each work item
+  workItems.forEach(function(item) {
+    // Check if the item matches the filter value
+    console.log("item:" , item.classList.contains(filterValue.slice(1)))
+    if (item.classList.contains(filterValue.slice(1))) {
+      // Show the item
+      console.log('showing the element')
+      item.style.display = 'inline-block';
+      console.log(item)
+    } else {
+      // Hide the item
+      console.log('hiding the element')
+      item.style.display = 'none';
+      console.log(item)
+    }
+  });
+}
+
+// Get the initial filter value (e.g., 'all')
+var initialFilterValue = '.all'
+// document.querySelector('.filter.active').getAttribute('data-filter');
+
+// Filter the elements on page load
+filterElements(initialFilterValue);
     </script>
 
     <a href="javascript:void(0);" id="back-top"

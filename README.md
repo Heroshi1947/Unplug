@@ -1,33 +1,34 @@
-the site is live : https://unplug-ten.vercel.app/ 
-it showcases a luggage business website with various products and brief detail about the business.
-the site is one page so it doesn't requires reloading also it is completly responsive making UX smooth on all devices.
+# Brandi - OnePage Bootstrap Business Template
 
-the home page : 
-![image](https://github.com/Heroshi1947/Unplug/assets/123864184/25e25920-d70b-412f-8586-9f923bdc4b09)
+Looking for something unique for your next business and corporate website? Meet Brandi, the free responsive one-page bootstrap business template. Twitter Bootstrap v3.x framework powers the template. No extra code, no additional feature which provides end-users a dominant power to build any kind of awesome website having ease in mind. The bootstrap-based one-page HTML template is lightweight and fast loading perfectly suited for the site whether they have high or low traffic. Business, corporate, portfolio, agency, blog, app showcase, photography, resume, creative agency, portfolio showcase, and creative platform are the perfect place to suit the niches of this HTML theme.
 
+PSD credit: <https://dribbble.com/themecurve>
 
-![image](https://github.com/Heroshi1947/Unplug/assets/123864184/87b22016-8d4a-4555-927f-4daf0a7c5fb4)
+<img src="https://cloud.githubusercontent.com/assets/10640964/5989549/0f93dfc8-a9b6-11e4-8f1e-75189f6a5759.jpg" alt="Free bootstrap business template by themefisher">
 
+**NOTE:** Please remember to **STAR** this project and **FOLLOW** [my Github](https://github.com/themefisher) to keep you updated with this template.
 
-the features page: 
-![image](https://github.com/Heroshi1947/Unplug/assets/123864184/a9c395f8-9cf4-4390-83fb-15127edc0282)
+## Demo & Download
 
+A fully functional demo is available at <a href="http://demo.themefisher.com/brandi">Demo</a>
+You can visit our website to download this theme <a href="https://themefisher.com/products/brandi/">Download Now</a>
 
+<!-- reporting issue -->
+## Reporting Issues
 
-the products : 
-![image](https://github.com/Heroshi1947/Unplug/assets/123864184/e771bbe1-ddb2-41d7-aa8d-5550b2faf13d)
+We use GitHub Issues as the official bug tracker for the blue-pro Template. Please Search [existing issues](https://github.com/themefisher/blue-pro/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/blue-pro/issues).
 
+<!-- support -->
+## Technical Support or Questions (Paid)
 
-the facts : 
-![image](https://github.com/Heroshi1947/Unplug/assets/123864184/8fb7efcc-7c56-4380-a92f-501c492232e8)
+If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
 
+<!-- licence -->
+## License
 
-the contact page:
-![image](https://github.com/Heroshi1947/Unplug/assets/123864184/f484b6c0-1fba-4492-9149-4ce3fe667f6c)
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
+**Code License:** Released under the [MIT](https://github.com/themefisher/blue-pro/blob/main/LICENSE) license.
 
-the footer:
-![image](https://github.com/Heroshi1947/Unplug/assets/123864184/559fe78f-66d6-459b-abad-df8b43698d0e)
-
-
-
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
